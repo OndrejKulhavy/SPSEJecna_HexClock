@@ -1,0 +1,24 @@
+/*
+ * Created Date: Friday, December 16th 2022, 10:43:31 am
+ * Author: Ondřej Kulhavý
+ * 
+ * Copyright (c) 2022 SPŠE Ječná
+ */
+ 
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  font-family: "Silkscreen", cursive;
+  font-size: 100px;
+  text-align: center;
+  /*center verticaly*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
